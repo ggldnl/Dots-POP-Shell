@@ -22,3 +22,5 @@ To import the keybindings:
 ```
 dconf load / < ~/.config/dconf/shortcuts.conf
 ```
+
+You also have to add Rofi to the Floating Window Exception list (navbar)
