@@ -1,0 +1,110 @@
+/* colors */
+
+* {
+
+	background:   #1d1f21;
+	foreground:   #c5c8c6;
+	
+	color0:       #282a2e;
+	color8:       #373b41;
+
+	color1:       #a54242;
+	color9:       #cc6666;
+
+	color2:       #8c9440;
+	color10:      #b5bd68;
+
+	color3:       #de935f;
+	color11:      #f0c674;
+
+	color4:       #5f819d;
+	color12:      #81a2be;
+
+	color5:       #85678f;
+	color13:      #b294bb;
+
+	color6:       #5e8d87;
+	color14:      #8abeb7;
+
+	color7:       #707880;
+	color15:      #c5c8c6;
+
+
+    selected-normal-background:  @color8;
+	selected-normal-foreground:  @foreground;
+
+	alternate-normal-background: @background;
+	alternate-normal-foreground: @foreground;
+
+	normal-background:           @background;
+	normal-foreground:           @foreground;
+
+    selected-urgent-background:  @color1;
+    selected-urgent-foreground:  @foreground;
+
+	alternate-urgent-background: @background;
+	alternate-urgent-foreground: @foreground;
+
+	urgent-background:           @color1;
+	urgent-foreground:           @foreground;
+
+	separatorcolor:              @background;
+
+    font: "Roboto 12";
+}
+
+window {
+	
+	spacing: 0px;
+	padding: 0px;
+	border: 1px;
+
+	border-color: @color8;
+
+}
+
+mainbox {
+	children: [inputbar, message, listview];
+	
+	spacing: 30px;
+	padding: 30px 0;
+    border:  0px;
+
+}
+
+/* inputbar */
+
+inputbar {
+	padding: 0 30px;
+	children: [textbox-prompt-colon, entry, case-indicator];
+}
+
+textbox-prompt-colon {
+	expand: false;
+	str: ">";
+	margin: 0 1ch 0 0;
+	text-color: @foreground;
+}
+
+case-indicator {
+	text-color: @foreground;
+}
+
+message {
+	border: 1px 0;
+	border-color: @foreground;
+}
+
+entry {
+	text-color: @foreground;
+}
+
+listview {
+	scrollbar: false;
+	margin: 0 10px 0 30px;
+}
+
+element {
+	padding: 5px;
+	highlight: bold underline;
+}
