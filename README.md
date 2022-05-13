@@ -7,7 +7,8 @@ I changed a few keybindings and kept rofi as application launcher since the defa
 
 To generate the file that holds all the keybindings (general procedure):
 ```
-dconf dump / | sed -n -e '/\[org.gnome.desktop.wm.keybindings/,/^$/p' -e '/\[org.gnome.settings-daemon.plugins.media-keys/,/^$/p' >> shortcuts.conf
+dconf dump / | sed -n -e '/\[org.gnome.desktop.wm.keybindings/,/^$/p' \
+-e '/\[org.gnome.settings-daemon.plugins.media-keys/,/^$/p' >> shortcuts.conf
 ```
 
 [reference](https://askubuntu.com/questions/26056/where-are-gnome-keyboard-shortcuts-stored)
