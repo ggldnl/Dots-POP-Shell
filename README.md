@@ -23,4 +23,7 @@ To import the keybindings:
 dconf load / < ~/.config/dconf/shortcuts.conf
 ```
 
-You also have to add Rofi to the Floating Window Exception list (navbar)
+You also have to add Rofi to the Floating Window Exception list (navbar) and to make applications start in the center of the screen:
+```
+gsettings set org.gnome.mutter center-new-windows true
+```
