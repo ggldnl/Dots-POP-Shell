@@ -3,8 +3,9 @@
 	background:		#282828;
 	foreground:		#c5c8c6;
 
-	selected-item:	#373b41;
+	selected-item:		#373b41;
 	urgent:			#a54242;
-	border-color:	#1b6aca;
+	/* border-color:		#1b6aca; */
+	border-color:		@selected-item;
 
 }
