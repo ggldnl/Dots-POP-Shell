@@ -1,6 +1,10 @@
 # GNOME + POP shell + Rofi + custom keybindings
 
-![sample](./images/sample.gif)
+<!-- ![sample](./images/sample.gif) markdown syntax only-->
+
+<p align="center">
+  <img src="./images/preview.gif" />
+</p>
 
 So I'm very lazy and rather than reinventing the wheel and configuring a desktop environment, a status bar, an application launcher and so on, this time I decided to give a shot to [pop shell](https://github.com/pop-os/shell) and it did not disappoint me.
 There are a few bugs but the overall experience is really pleasing.
