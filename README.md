@@ -63,3 +63,7 @@ gsettings set org.gnome.mutter center-new-windows true
 - application launcher (`Alt+c`)
 
 - launch terminal (`Alt+Return`)
+
+# Regolith
+
+FYI now I'm using [Regolith](https://regolith-desktop.com/)
