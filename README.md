@@ -6,7 +6,7 @@
   <img src="./images/preview.gif" />
 </p>
 
-So I'm very lazy and rather than reinventing the wheel and configuring a desktop environment, a status bar, an application launcher and so on, this time I decided to give a shot to [pop shell](https://github.com/pop-os/shell) and it did not disappoint me.
+So I'm very lazy and rather than reinventing the wheel and configuring a desktop environment, a status bar, an application launcher and so on, this time I decided to give a shot to [pop shell](https://github.com/pop-os/shell) and it did not disappoint me. Pop Shell is a keyboard-driven layer for gnome shell.
 There are a few bugs but the overall experience is really pleasing.
 The only negative aspect is that gnome draws hell of a lot of RAM.
 
