@@ -66,4 +66,4 @@ gsettings set org.gnome.mutter center-new-windows true
 
 # Regolith
 
-FYI now I'm using [Regolith](https://regolith-desktop.com/)
+Now I'm using [Regolith](https://regolith-desktop.com/)
